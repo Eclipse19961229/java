@@ -46,7 +46,6 @@ public class ForkJoin extends RecursiveTask<Integer> {
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
-            e.printStackTrace();
         }
     }
 }
